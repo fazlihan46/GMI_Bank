@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e318267c-f610-47c6-b0af-23d8972a7b06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/pojos/LoginPojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/runners/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/step_definitions/LoginStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
