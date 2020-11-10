@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<<<<<<< HEAD
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="26.934">
-<testcase classname="Address" name="go to Create or edit a Customer" time="26.188">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="8" time="21.722">
+<testcase classname="Address" name="go to Create or edit a Customer" time="19.447">
 <system-out><![CDATA[Given user go to GMI home page..............................................passed
 And user click sig in button................................................passed
 And user enter valid username...............................................passed
@@ -12,30 +11,52 @@ And user click manage Customer..............................................pass
 Then user click Create a new Customer button................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Address" name="negative" time="0.318">
+<testcase classname="Address" name="negative" time="0.264">
 <system-out><![CDATA[Given user click address textbox............................................passed
 And user leave clear textbox................................................passed
 Then user click save button.................................................passed
 Then verify error message...................................................passed
 ]]></system-out>
-=======
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="2" tests="2" time="0.831">
-<testcase classname="Address" name="go to Create or edit a Customer" time="0.16">
-<skipped><![CDATA[Given user go to GMI home page..............................................undefined
-And user click sig in button................................................undefined
-And user enter valid username...............................................undefined
-And user enter valid password...............................................undefined
-And user click sign in button...............................................undefined
-And user click my operation.................................................undefined
-And user click manage Customer..............................................undefined
-Then user click Create a new Customer button................................undefined
-]]></skipped>
 </testcase>
-<testcase classname="Address" name="negative" time="0.006">
-<skipped><![CDATA[Given user click address textbox............................................undefined
-And user leave clear textbox................................................undefined
-Then user click save button.................................................undefined
-]]></skipped>
->>>>>>> refs/remotes/origin/Kerim
+<testcase classname="Address" name="positive" time="0.354">
+<system-out><![CDATA[Given user click address textbox............................................passed
+And user enter valid data for address.......................................passed
+Then user click save button.................................................passed
+Then should not see any message for address.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Address" name="negative" time="0.277">
+<system-out><![CDATA[Given user click address textbox............................................passed
+And user leave clear textbox................................................passed
+Then user click save button.................................................passed
+Then verify error message for city..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Address" name="positive" time="0.228">
+<system-out><![CDATA[Given user click address textbox............................................passed
+And user enter valid data for city..........................................passed
+Then user click save button.................................................passed
+Then should not see any message for city....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Address" name="negative" time="0.273">
+<system-out><![CDATA[Given user click address textbox............................................passed
+And user leave clear textbox for country....................................passed
+Then user click save button.................................................passed
+Then verify error message for country.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Address" name="negative_2" time="0.227">
+<system-out><![CDATA[Given user click address textbox............................................passed
+And user leave clear textbox for state......................................passed
+Then user click save button.................................................passed
+Then verify error message for state.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Address" name="positive" time="0.201">
+<system-out><![CDATA[Given user click address textbox............................................passed
+And user enter valid data for state.........................................passed
+Then user click save button.................................................passed
+]]></system-out>
 </testcase>
 </testsuite>

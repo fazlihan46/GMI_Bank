@@ -19,3 +19,45 @@ Feature: Address
     And user leave clear textbox
     Then user click save button
     Then verify error message
+
+  @TC_01_Address
+  Scenario:positive
+    Given user click address textbox
+    And user enter valid data for address
+    Then user click save button
+    Then should not see any message for address
+
+  @TC_01_City
+  Scenario:negative
+    Given user click address textbox
+    And user leave clear textbox
+    Then user click save button
+    Then verify error message for city
+
+  @TC_01_City
+  Scenario:positive
+    Given user click address textbox
+    And user enter valid data for city
+    Then user click save button
+    Then should not see any message for city
+
+  @TC_01_Country
+  Scenario:negative
+    Given user click address textbox
+    And user leave clear textbox for country
+    Then user click save button
+    Then verify error message for country
+
+  @TC_01_State
+  Scenario:negative
+    Given user click address textbox
+    And user leave clear textbox for state
+    Then user click save button
+    Then verify error message for state
+
+  @TC_01_State
+  Scenario:positive
+    Given user click address textbox
+    And user enter valid data for state
+    Then user click save button
+
