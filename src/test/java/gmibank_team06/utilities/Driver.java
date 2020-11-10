@@ -51,7 +51,7 @@ public class Driver {
                     driver = new InternetExplorerDriver();
                     break;
                 case "safari":
-                    WebDriverManager.getInstance(SafariDriver.class).setup();
+                    //WebDriverManager.getInstance(SafariDriver.class).setup();
                     driver = new SafariDriver();
                     break;
                 case "chrome-headless":

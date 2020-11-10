@@ -1,0 +1,172 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Creation page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-11-09T17:23:45.183Z",
+        "line": 6,
+        "name": "go to Create or edit a Customer",
+        "description": "",
+        "id": "address;go-to-create-or-edit-a-customer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user go to GMI home page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user click sig in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user enter valid username",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user enter valid password",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "user click sign in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user click my operation",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "user click manage Customer",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "user click Create a new Customer button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@User_story_010"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Creation page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-11-09T17:23:45.379Z",
+        "line": 17,
+        "name": "negative",
+        "description": "",
+        "id": "address;negative",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user click address textbox",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user leave clear textbox",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "user click save button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@User_story_010"
+          },
+          {
+            "name": "@TC_01_Address"
+          }
+        ]
+      }
+    ],
+    "name": "Address",
+    "description": "",
+    "id": "address",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_010_Address.feature",
+    "tags": [
+      {
+        "name": "@User_story_010",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 3
+        }
+      }
+    ]
+  }
+]
