@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="26.934">
+<testcase classname="Address" name="go to Create or edit a Customer" time="26.188">
+<system-out><![CDATA[Given user go to GMI home page..............................................passed
+And user click sig in button................................................passed
+And user enter valid username...............................................passed
+And user enter valid password...............................................passed
+And user click sign in button...............................................passed
+And user click my operation.................................................passed
+And user click manage Customer..............................................passed
+Then user click Create a new Customer button................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Address" name="negative" time="0.318">
+<system-out><![CDATA[Given user click address textbox............................................passed
+And user leave clear textbox................................................passed
+Then user click save button.................................................passed
+Then verify error message...................................................passed
+]]></system-out>
+=======
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="2" tests="2" time="0.831">
 <testcase classname="Address" name="go to Create or edit a Customer" time="0.16">
 <skipped><![CDATA[Given user go to GMI home page..............................................undefined
@@ -16,5 +36,6 @@ Then user click Create a new Customer button................................unde
 And user leave clear textbox................................................undefined
 Then user click save button.................................................undefined
 ]]></skipped>
+>>>>>>> refs/remotes/origin/Kerim
 </testcase>
 </testsuite>

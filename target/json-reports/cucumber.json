@@ -11,7 +11,11 @@
         "steps": []
       },
       {
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-10T17:23:04.389Z",
+=======
         "start_timestamp": "2020-11-09T17:23:45.183Z",
+>>>>>>> refs/remotes/origin/Kerim
         "line": 6,
         "name": "go to Create or edit a Customer",
         "description": "",
@@ -21,74 +25,162 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 24913000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user go to GMI home page",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_go_to_GMI_home_page()"
+            },
+=======
               "status": "undefined"
             },
             "line": 7,
             "name": "user go to GMI home page",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 165000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click sig in button",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_click_sig_in_button()"
+            },
+=======
               "status": "undefined"
             },
             "line": 8,
             "name": "user click sig in button",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter valid username",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_enter_valid_username()"
+            },
+=======
               "status": "undefined"
             },
             "line": 9,
             "name": "user enter valid username",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter valid password",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_enter_valid_password()"
+            },
+=======
               "status": "undefined"
             },
             "line": 10,
             "name": "user enter valid password",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click sign in button",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_click_sign_in_button()"
+            },
+=======
               "status": "undefined"
             },
             "line": 11,
             "name": "user click sign in button",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 380000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click my operation",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_click_my_operation()"
+            },
+=======
               "status": "undefined"
             },
             "line": 12,
             "name": "user click my operation",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click manage Customer",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_click_manage_Customer()"
+            },
+=======
               "status": "undefined"
             },
             "line": 13,
             "name": "user click manage Customer",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 242000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user click Create a new Customer button",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_click_Create_a_new_Customer_button()"
+            },
+=======
               "status": "undefined"
             },
             "line": 14,
             "name": "user click Create a new Customer button",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "Then "
           }
         ],
@@ -107,7 +199,11 @@
         "steps": []
       },
       {
+<<<<<<< HEAD
+        "start_timestamp": "2020-11-10T17:23:30.585Z",
+=======
         "start_timestamp": "2020-11-09T17:23:45.379Z",
+>>>>>>> refs/remotes/origin/Kerim
         "line": 17,
         "name": "negative",
         "description": "",
@@ -117,29 +213,74 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 105000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click address textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_click_address_textbox()"
+            },
+=======
               "status": "undefined"
             },
             "line": 18,
             "name": "user click address textbox",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "Given "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 45000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user leave clear textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_leave_clear_textbox()"
+            },
+=======
               "status": "undefined"
             },
             "line": 19,
             "name": "user leave clear textbox",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "And "
           },
           {
             "result": {
+<<<<<<< HEAD
+              "duration": 128000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user click save button",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.user_click_save_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "verify error message",
+            "match": {
+              "location": "gmibank_team06.step_definitions.US_010_Address_StepDef.verify_error_message()"
+            },
+=======
               "status": "undefined"
             },
             "line": 20,
             "name": "user click save button",
             "match": {},
+>>>>>>> refs/remotes/origin/Kerim
             "keyword": "Then "
           }
         ],
@@ -164,7 +305,11 @@
         "type": "Tag",
         "location": {
           "line": 1,
+<<<<<<< HEAD
+          "column": 1
+=======
           "column": 3
+>>>>>>> refs/remotes/origin/Kerim
         }
       }
     ]
