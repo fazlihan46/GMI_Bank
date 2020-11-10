@@ -33,5 +33,15 @@ public class US_010_Address_Page {
     public WebElement save;
     @FindBy(xpath = "(//div[@class='invalid-feedback'])[8]")
     public WebElement address_error_message;
+    @FindBy(id = "tp-customer-city")
+    public WebElement city;
+    @FindBy(xpath = "(//div[@class='invalid-feedback'])[9]")
+    public WebElement city_error_message;
+    @FindBy(id = "tp-customer-country")
+    public WebElement country;
+    @FindBy(id = "tp-customer-state")
+    public WebElement state;
+
+
 
 }
