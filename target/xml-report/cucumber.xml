@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="26.934">
 <testcase classname="Address" name="go to Create or edit a Customer" time="26.188">
 <system-out><![CDATA[Given user go to GMI home page..............................................passed
@@ -17,5 +18,24 @@ And user leave clear textbox................................................pass
 Then user click save button.................................................passed
 Then verify error message...................................................passed
 ]]></system-out>
+=======
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="2" tests="2" time="0.831">
+<testcase classname="Address" name="go to Create or edit a Customer" time="0.16">
+<skipped><![CDATA[Given user go to GMI home page..............................................undefined
+And user click sig in button................................................undefined
+And user enter valid username...............................................undefined
+And user enter valid password...............................................undefined
+And user click sign in button...............................................undefined
+And user click my operation.................................................undefined
+And user click manage Customer..............................................undefined
+Then user click Create a new Customer button................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Address" name="negative" time="0.006">
+<skipped><![CDATA[Given user click address textbox............................................undefined
+And user leave clear textbox................................................undefined
+Then user click save button.................................................undefined
+]]></skipped>
+>>>>>>> refs/remotes/origin/Kerim
 </testcase>
 </testsuite>
