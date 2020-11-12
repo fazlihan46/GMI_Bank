@@ -5,9 +5,9 @@ Feature: User Registration
     And user click on the usericon
     And user select register
 
-
+  @TC_01_02_03_04
   Scenario Outline: user register with valid credentials
-      And user click SSN textbox
+     Given user click SSN textbox
       And user enter valid SSN number "<SSN>"
       And user click name textbox
       And user enter valid name "<name>"
@@ -22,9 +22,9 @@ Feature: User Registration
       And user click email textbox
       And user enter valid email "<email>"
       And user click password textbox
-      And user enter valid password <"password>"
+      And user enter valid password "<password>"
       And user click confirmation password textbox
-      And user enter confirmation password <"conf-password>"
+      And user enter confirmation password "<conf-pword>"
       And user click register button
       Then user get success message "<message>"
 

@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e318267c-f610-47c6-b0af-23d8972a7b06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/pages/RegistrationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Registration1.features" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Registration2.features" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank_team06/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/runners/RegistrationRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank_team06/step_definitions/LoginStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/step_definitions/RegistrationStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank_team06/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank_team06/runners/RegistrationRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/runners/RegistrationRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank_team06/step_definitions/RegistrationStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/step_definitions/RegistrationStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/gmibank_team06/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Registration1.features" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Registration1.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Registration2.features" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Registration1.features" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Registration2.features" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank_team06/pages/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/pages/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank_team06/runners/RegistrationRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/runners/RegistrationRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank_team06/step_definitions/RegistrationStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/step_definitions/RegistrationStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +56,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="RegistrationRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -93,33 +105,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="424" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604675358432" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605040020340">
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1605207433169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605040020340" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605040020339">
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605207433169" />
+    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1605207433169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605040020339" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605040020339">
+    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605207433169" />
+    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1605207433169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605040020339" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605040020340">
+    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605207433169" />
+    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1605207433169">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605040020339" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1605028695658">
+    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605207433169" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1605066825387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1605028695658" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605066825387" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1605065078772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1605065078772" />
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604672559730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1604672559730" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604953166564">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1605197516032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604953166564" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605197516032" />
   </component>
 </project>

@@ -1,1 +1,1365 @@
-[]
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat gmibank_team06.step_definitions.RegistrationStepDefinitions.user_is_on_the_homepage(RegistrationStepDefinitions.java:15)\r\n\tat ✽.user is on the homepage(file:///C:/Users/keske/IdeaProjects/gmibank/src/test/resources/features/Registration1.feature:4)\r\n",
+              "duration": 31000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user click on the usericon",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_on_the_usericon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user select register",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_select_register()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T18:57:14.518Z",
+        "line": 33,
+        "name": "user register with valid credentials",
+        "description": "",
+        "id": "user-registration;user-register-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click SSN textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_SSN_textbox()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enter valid SSN number \"123-23-3456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123-23-3456\"",
+                  "offset": 28
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_SSN_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user click name textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_name_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user enter valid name \"Ayse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ayse\"",
+                  "offset": 22
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user click lastname textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_lastname_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enter valid lastname \"Demir\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Demir\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click address textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_address_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user enter valid address \"12 column way\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12 column way\"",
+                  "offset": 25
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click mobile phone textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_mobile_phone_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user enter valid mobile phone number \"221-231-1111\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"221-231-1111\"",
+                  "offset": 37
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_mobile_phone_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user click username textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_username_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user enter valid username \"AyseD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AyseD\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user click email textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_email_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user enter valid email \"aysedemir@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"aysedemir@gmail.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user click password textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user enter valid password \"Ad192837?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ad192837?\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user click confirmation password textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_confirmation_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user enter confirmation password \"Ad192837?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ad192837?\"",
+                  "offset": 33
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_confirmation_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user click register button",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "user get success message \"Registration saved! Please check your email for connfirmation alert\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@snn_number"
+          },
+          {
+            "name": "@TC_01_02_03_04"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat gmibank_team06.step_definitions.RegistrationStepDefinitions.user_is_on_the_homepage(RegistrationStepDefinitions.java:15)\r\n\tat ✽.user is on the homepage(file:///C:/Users/keske/IdeaProjects/gmibank/src/test/resources/features/Registration1.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user click on the usericon",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_on_the_usericon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user select register",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_select_register()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T18:57:14.665Z",
+        "line": 34,
+        "name": "user register with valid credentials",
+        "description": "",
+        "id": "user-registration;user-register-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click SSN textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_SSN_textbox()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enter valid SSN number \"000-12-1233\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"000-12-1233\"",
+                  "offset": 28
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_SSN_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user click name textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_name_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user enter valid name \"Veli\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veli\"",
+                  "offset": 22
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user click lastname textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_lastname_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enter valid lastname \"Isik\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Isik\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click address textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_address_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user enter valid address \"2 Daisy St\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2 Daisy St\"",
+                  "offset": 25
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click mobile phone textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_mobile_phone_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user enter valid mobile phone number \"671-123-4556\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"671-123-4556\"",
+                  "offset": 37
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_mobile_phone_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user click username textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_username_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user enter valid username \"VeliI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"VeliI\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user click email textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_email_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user enter valid email \"veliisik@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"veliisik@gmail.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user click password textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user enter valid password \"Vi192837?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vi192837?\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user click confirmation password textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_confirmation_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user enter confirmation password \"Vi192837?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vi192837?\"",
+                  "offset": 33
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_confirmation_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user click register button",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "user get success message \"Registration saved! Please check your email for connfirmation alert\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@snn_number"
+          },
+          {
+            "name": "@TC_01_02_03_04"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat gmibank_team06.step_definitions.RegistrationStepDefinitions.user_is_on_the_homepage(RegistrationStepDefinitions.java:15)\r\n\tat ✽.user is on the homepage(file:///C:/Users/keske/IdeaProjects/gmibank/src/test/resources/features/Registration1.feature:4)\r\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user click on the usericon",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_on_the_usericon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user select register",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_select_register()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T18:57:14.707Z",
+        "line": 35,
+        "name": "user register with valid credentials",
+        "description": "",
+        "id": "user-registration;user-register-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click SSN textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_SSN_textbox()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enter valid SSN number \"456-00-9876\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"456-00-9876\"",
+                  "offset": 28
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_SSN_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user click name textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_name_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user enter valid name \"Ali\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ali\"",
+                  "offset": 22
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user click lastname textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_lastname_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enter valid lastname \"Kuz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kuz\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click address textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_address_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user enter valid address \"13 Row St\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"13 Row St\"",
+                  "offset": 25
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click mobile phone textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_mobile_phone_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user enter valid mobile phone number \"765-321-9090\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"765-321-9090\"",
+                  "offset": 37
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_mobile_phone_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user click username textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_username_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user enter valid username \"AliK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AliK\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user click email textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_email_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user enter valid email \"alikuz@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"alikuz@gmail.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user click password textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user enter valid password \"Ak192837?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ak192837?\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user click confirmation password textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_confirmation_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user enter confirmation password \"Ak192837?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ak192837?\"",
+                  "offset": 33
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_confirmation_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user click register button",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "user get success message \"Registration saved! Please check your email for connfirmation alert\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@snn_number"
+          },
+          {
+            "name": "@TC_01_02_03_04"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat gmibank_team06.step_definitions.RegistrationStepDefinitions.user_is_on_the_homepage(RegistrationStepDefinitions.java:15)\r\n\tat ✽.user is on the homepage(file:///C:/Users/keske/IdeaProjects/gmibank/src/test/resources/features/Registration1.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "user is on the homepage",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_is_on_the_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user click on the usericon",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_on_the_usericon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user select register",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_select_register()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-12T18:57:14.739Z",
+        "line": 36,
+        "name": "user register with valid credentials",
+        "description": "",
+        "id": "user-registration;user-register-with-valid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user click SSN textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_SSN_textbox()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enter valid SSN number \"900-12-1233\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"900-12-1233\"",
+                  "offset": 28
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_SSN_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user click name textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_name_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user enter valid name \"Can\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Can\"",
+                  "offset": 22
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user click lastname textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_lastname_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user enter valid lastname \"Yavuz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Yavuz\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_lastname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user click address textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_address_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user enter valid address \"22 Table Way\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"22 Table Way\"",
+                  "offset": 25
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "user click mobile phone textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_mobile_phone_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user enter valid mobile phone number \"876-123-1212\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"876-123-1212\"",
+                  "offset": 37
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_mobile_phone_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user click username textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_username_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user enter valid username \"CanY\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CanY\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_username(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user click email textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_email_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user enter valid email \"canyavuz@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"canyavuz@gmail.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user click password textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user enter valid password \"Cy192837?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cy192837?\"",
+                  "offset": 26
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_valid_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user click confirmation password textbox",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_confirmation_password_textbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user enter confirmation password \"Cy192837?\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cy192837?\"",
+                  "offset": 33
+                }
+              ],
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_enter_confirmation_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user click register button",
+            "match": {
+              "location": "gmibank_team06.step_definitions.RegistrationStepDefinitions.user_click_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 29,
+            "name": "user get success message \"Registration saved! Please check your email for connfirmation alert\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@snn_number"
+          },
+          {
+            "name": "@TC_01_02_03_04"
+          }
+        ]
+      }
+    ],
+    "name": "User Registration",
+    "description": "",
+    "id": "user-registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Registration1.feature",
+    "tags": [
+      {
+        "name": "@snn_number",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
