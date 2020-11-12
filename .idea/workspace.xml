@@ -22,41 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e318267c-f610-47c6-b0af-23d8972a7b06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/pages/US_010_Address_Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/runners/RegistrationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/step_definitions/RegistrationStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/step_definitions/US_010_Address_StepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Registration.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/US_010_Address.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/features/US_010_Address.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/pages/US_010_Address_Page.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/runners/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/step_definitions/US_010_Address_StepDef.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/ReusableMethods$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/ReusableMethods$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/ReusableMethods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/pages/US_010_Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/runner/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/US_010_Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmibank.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank_team06/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/pages/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank_team06/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gmibank_team06/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gmibank_team06/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/gmibank_team06/utilities/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e318267c-f610-47c6-b0af-23d8972a7b06" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
